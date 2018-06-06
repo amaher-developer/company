@@ -1,0 +1,140 @@
+<div class="container-fluid service-tob-1 tab-1">
+    <div class="container"> <img src="/front/img/servs_img.png" class="hidden-xs hidden-sm img-tab-1">
+        <div class="col-lg-offset-1 col-lg-10 col-md-12 col-xs-12 col-sm-10 col-sm-offset-1">
+            <h3 class="tab-1-title">WE PROMISE HELPING YOU <br>
+                get the best of your <br>
+                Engaging products</h3>
+            <div class="line-yellow"></div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="services-content_item">
+                    <div class="services-content_item-number"> <span>1</span> </div>
+                    <div class="services-content_item-data">
+                        <h4><a href="#" class="open-item">Web Development</a></h4>
+                        <p> The preparation of appropriate design of the site, taking into account the different browsers and different setups. with a choice of distribution and colors that suit the area of the work site. </p>
+                        <a  href="#" class="read-more">+ Read more</a> </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="services-content_item">
+                    <div class="services-content_item-number"> <span>2</span> </div>
+                    <div class="services-content_item-data">
+                        <h4><a href="#" class="open-item">Web Development</a></h4>
+                        <p> The preparation of appropriate design of the site, taking into account the different browsers and different setups. with a choice of distribution and colors that suit the area of the work site. </p>
+                        <a  href="#" class="read-more">+ Read more</a> </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="services-content_item">
+                    <div class="services-content_item-number"> <span>3</span> </div>
+                    <div class="services-content_item-data">
+                        <h4><a href="#" class="open-item">Web Development</a></h4>
+                        <p> The preparation of appropriate design of the site, taking into account the different browsers and different setups. with a choice of distribution and colors that suit the area of the work site. </p>
+                        <a  href="#" class="read-more">+ Read more</a> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid service-tob-1 tab-2 hidden">
+    <div class="container"> <img src="/front/img/servs_img.png" class="hidden-xs img-tab-2">
+        <div class="col-xs-12"> <a href="#" class="back-tab-2"><span><i class="fas fa-arrow-left"></i></span> Back</a>
+            <h3>WEB DEVELOPMENT</h3>
+            <p class="col-md-5 remove-padding dec"> The preparation of appropriate design of the site, taking into account the different browsers and different setups. with a choice of distribution and colors that suit the area of the work site. </p>
+        </div>
+        <div class="container  bottom-chart">
+            <div class="down-me-2 text-center">
+                <p>projects we shaped</p>
+                <div class="arrows"> <i class="fas fa-chevron-down"></i>
+                    <div class="clearfix"></div>
+                    <i class="fas fa-chevron-down"></i> </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class=" container tab-3"> <a href="#" class="go-back-2"><span><i class="fas fa-arrow-left"></i></span> Back</a>
+    <div class="clearfix"></div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 tab-3">
+        <div class="slider slider-for">
+            {{# each records}}
+
+            {{# if this.user_name}}
+            <div class="about-info" data-index="{{this._id}}">
+                <p>{{this.user_comment}}</p>
+            </div>
+
+            {{/if}}
+            {{/each}}
+
+        </div>
+        <div class="slider slider-nav">
+            {{# each records}}
+            {{# if this.user_name}}
+            <div slide="slide_{{this._id}}">
+                <div class="person-img"> <img src="/service/{{this.user_image}}"> </div>
+            </div>
+
+            {{/if}}
+            {{/each}}
+
+
+        </div>
+
+        {{# each records}}
+        {{# if this.user_name}}
+        <div class="content {{this._id}} hide-me-1" data-id="{{this._id}}">
+            <p>{{this.user_name}}</p>
+            <!--<h4>Startup CEO</h4>-->
+        </div>
+        {{/if}}
+
+        {{/each}}
+        <!--<div class="content two hide-me-1" data-id="2">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 2</h4>-->
+        <!--</div>-->
+        <!--<div class="content three hide-me-1" data-id="3">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 3</h4>-->
+        <!--</div>-->
+        <!--<div class="content four hide-me-1" data-id="4">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 4</h4>-->
+        <!--</div>-->
+        <!--<div class="content five hide-me-1" data-id="5">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 5</h4>-->
+        <!--</div>-->
+        <!--<div class="content six hide-me-1" data-id="6">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 6</h4>-->
+        <!--</div>-->
+        <!--<div class="content seven hide-me-1" data-id="7">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 7</h4>-->
+        <!--</div>-->
+        <!--<div class="content eight hide-me-1" data-id="8">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 8</h4>-->
+        <!--</div>-->
+        <!--<div class="content nine hide-me-1" data-id="9">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 9</h4>-->
+        <!--</div>-->
+        <!--<div class="content ten hide-me-1" data-id="10">-->
+            <!--<p>Angela Ferguson</p>-->
+            <!--<h4>Startup CEO 10</h4>-->
+        <!--</div>-->
+    </div>
+</div>
+<style>
+
+
+
+
+
+
+
+
+</style>

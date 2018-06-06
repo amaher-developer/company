@@ -1,0 +1,63 @@
+<div class="container remove-padding job-main">
+
+    <h2>Job Openings</h2>
+
+    <ul class="job-perant">
+        <li class="job-item">
+            <div class="job-icon">
+                <img src="/front/img/img1.png">
+                <span>1</span>
+            </div>
+            <h4>UI/UX Designer</h4>
+
+            <p>
+                If you’ve hung around kids at all in the last few years, you know they love YouTube, even though the video site is only supposed to be for people 13 and up. Now, Google is planning to roll out a YouTube app specifically aimed at kids.
+            </p>
+
+        </li>
+        <li class="job-item">
+            <div class="job-icon">
+                <img src="/front/img/img1.png">
+                <span>1</span>
+            </div>
+            <h4>UI/UX Designer</h4>
+
+            <p>
+                If you’ve hung around kids at all in the last few years, you know they love YouTube, even though the video site is only supposed to be for people 13 and up. Now, Google is planning to roll out a YouTube app specifically aimed at kids.
+            </p>
+
+        </li>
+        <li class="job-item">
+            <div class="job-icon">
+                <img src="/front/img/img1.png">
+                <span>1</span>
+            </div>
+            <h4>UI/UX Designer</h4>
+
+            <p>
+                If you’ve hung around kids at all in the last few years, you know they love YouTube, even though the video site is only supposed to be for people 13 and up. Now, Google is planning to roll out a YouTube app specifically aimed at kids.
+            </p>
+
+        </li>
+        <li class="job-item">
+            <div class="job-icon">
+                <img src="/front/img/img1.png">
+                <span>1</span>
+            </div>
+            <h4>UI/UX Designer</h4>
+
+            <p>
+                If you’ve hung around kids at all in the last few years, you know they love YouTube, even though the video site is only supposed to be for people 13 and up. Now, Google is planning to roll out a YouTube app specifically aimed at kids.
+            </p>
+
+        </li>
+
+
+    </ul>
+    <a href="#">Apply for our jobs</a>
+
+    <style>
+
+    </style>
+
+</div>

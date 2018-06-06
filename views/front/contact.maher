@@ -1,0 +1,96 @@
+
+<div class="container remove-padding">
+    <div class="col-md-12 col-xs-12 col-lg-10 col-lg-offset-1 col-sm-12 remove-padding contact-main">
+
+        <div class="col-xs-12 col-md-6 col-sm-6 info-main">
+            <h1>GET IN
+                TOUCH
+                WITH US</h1>
+
+
+            <div class="info-item">
+                <i class="fas fa-phone"></i>
+                <p>01002509905</p>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="info-item">
+                <i class="fas fa-envelope"></i>
+                <p>amaher.developer@gmail.com</p>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="info-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Street: Maadi</p>
+            </div>
+            <div class="clearfix"></div>
+            <div class="info-item">
+                <i class="far fa-clock"></i>
+                <p>ours 8:00 AM - 4:00 PM <br> Days Sat - Tues</p>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col-xs-12 col-md-6 col-sm-6 form-main">
+
+            <form>
+                <div class="input-main">
+                    <p>NAME</p>
+                    <div class="input-effect">
+                        <input class="effect-2" type="text">
+                        <span class="focus-border"></span>
+                    </div>
+
+
+                </div>
+                <div class="input-main">
+                    <p>COMPANY</p>
+                    <div class="input-effect">
+                        <input class="effect-2" type="text">
+                        <span class="focus-border"></span>
+                    </div>
+
+
+                </div>
+                <div class="input-main">
+                    <p>PHONE</p>
+                    <div class="input-effect">
+                        <input class="effect-2" type="text">
+                        <span class="focus-border"></span>
+                    </div>
+
+
+                </div>
+                <div class="input-main">
+                    <p>MESSAGE</p>
+                    <div class="input-effect">
+                        <textarea class="effect-2"></textarea>
+                        <span class="focus-border"></span>
+                    </div>
+
+
+                </div>
+
+                <div class="clearfix"></div>
+                <button type="submit"> SUBMIT</button>
+
+
+
+
+            </form>
+
+
+        </div>
+    </div>
+
+
+
+</div>

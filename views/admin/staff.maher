@@ -1,0 +1,96 @@
+<div id="page-wrapper"  >
+
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    {{title}}
+                </h1>
+
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i>  <a href="/operate">Home</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-table"></i> {{title}}
+                    </li>
+                    <b style="float: right">
+                        <a href="staff-add">Add Staff</a>
+                    </b>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Records: {{count}}</h2>
+                <div class="table-responsive">
+
+                    <table class="table table-bordered table-hover">
+
+                        <thead>
+                        <tr>
+                            <th>#ID</th>
+                            <th>Name</th>
+                            <th>Title</th>
+                            <th>Image</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {{# each records }}
+                        <tr class="item">
+                            <td>{{ this._id }}</td>
+                            <td>{{ this.name }}</td>
+                            <td>{{ this.title }}</td>
+                            <td>
+                                    <img src="/staff/{{this.image}}" style="width: 200px;height: 200px;object-fit: cover;"/>
+                            </td>
+                            <td class="text-center">
+                                <a href="staff-edit/{{ this._id }}" ><i class="fa fa-fw fa-edit"></i></a>
+                                <a href="staff-delete/{{ this._id }}" onclick="return confirm('are you sure?')"><i class="fa fa-fw  fa-trash"></i></a>
+                            </td>
+                        </tr>
+                        {{/each}}
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- /#page-wrapper -->
+<!--<div   ng-controller="staff as staff">-->
+
+    <!--<ul>-->
+        <!--<li ng-repeat="x in names ">-->
+            <!--{{x}}-->
+        <!--</li>-->
+    <!--</ul>-->
+
+<!--</div>-->
+
+<script>
+    app.controller('staff', function($scope, $http) {
+        $scope.names = [
+            'Jani',
+            'Carl',
+            'Margareth',
+            'Hege',
+            'Joe',
+            'Gustav',
+            'Birgit',
+            'Mary',
+            'Kai'
+        ];
+
+    });
+</script>

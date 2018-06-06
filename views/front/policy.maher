@@ -1,0 +1,150 @@
+<div class="container remove-padding">
+    <div class="col-xs-12 remove-padding policies-main hidden-sm hidden-xs">
+        <div class="col-md-3">
+            <h3>who we are</h3>
+        </div>
+
+        <div class="col-md-6">
+            <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+                Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
+                Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo.</p>
+        </div>
+
+        <div class="col-md-3">
+            <img src="/front/img/pencil.png">
+        </div>
+
+
+    </div>
+    <div class="col-xs-12 remove-padding policies-main hidden-sm hidden-xs">
+        <div class="col-md-3">
+            <img src="/front/img/megaphone.png">
+        </div>
+
+        <div class="col-md-6">
+            <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+                Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
+                Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo.</p>
+        </div>
+
+        <div class="col-md-3">
+
+            <h3>Our vision</h3>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="col-xs-12 remove-padding policies-main visible-sm visible-xs">
+
+        <div class="col-sm-4 col-sm-offset-4">
+            <img src="/front/img/pencil.png">
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-sm-4">
+            <h3>who we are</h3>
+        </div>
+
+        <div class="col-sm-8">
+            <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+                Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
+                Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo.</p>
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="col-xs-12 remove-padding policies-main visible-sm visible-xs">
+        <div class="col-sm-4 col-sm-offset-4">
+            <img src="/front/img/megaphone.png">
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-sm-8">
+            <div class="col-sm-4  visible-xs">
+
+                <h3>Our vision</h3>
+            </div>
+
+            <p>Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+                Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
+                Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo.</p>
+        </div>
+
+        <div class="col-sm-4 hidden-xs">
+
+            <h3>Our vision</h3>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="clearfix"></div>
+
+    <div class="col-xs-12 remove-padding Policies-bot">
+        <div class="col-md-3 col-sm-12 side remove-padding">
+            <h1 class="col-sm-4 col-md-12 col-xs-12">Our Policies</h1>
+            <p  class="col-sm-8 col-md-12 col-xs-12">Curabitur lobortis id lorem id bibendum. Ut id consectetur magna.
+                Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus.
+                Nam tempus vel odio vitae aliquam. In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo.</p>
+        </div>
+
+        <div class="col-md-7 col-md-offset-1 col-xs-12 col-sm-12 roles-main-cont">
+            <div class="roles-main">
+                <div class="num">
+                    <svg   data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 64"><defs><style>.cls-11{fill:#fbc52b;}.cls-24{fill:#8d76be;}.cls-33{fill:none;stroke:#8d76be;stroke-width:2px;}</style></defs><title>icon_1</title><circle class="cls-11" cx="30" cy="34" r="30"/><path class="cls-24" d="M51.69,19.58a1,1,0,0,1,1-1,1,1,0,0,1,1,1L53.75,32a1,1,0,0,1-.29.71,1,1,0,0,1-.7.29,1,1,0,0,1-1-1l-.07-12.38Z" transform="translate(0 0)"/><path class="cls-33" d="M56.86,43.74V46a2,2,0,0,1-2,2H32.79a2,2,0,0,1-2-2V43.74a2,2,0,0,1,2-2h6.63a1,1,0,0,0,1-1V13.57a1,1,0,0,0-1-1,1,1,0,0,0-.67.26L34.16,17a2.79,2.79,0,0,1-1.27.64,3,3,0,0,1-1.12,0,2.93,2.93,0,0,1-1-.39,2.37,2.37,0,0,1-.73-.67l-2.3-3.15,13-11.19A5,5,0,0,1,44,1H46a2,2,0,0,1,2,2V40.74a1,1,0,0,0,1,1h5.84A2,2,0,0,1,56.86,43.74Z" transform="translate(0 0)"/></svg>
+                </div>
+                <p>Accept a limited number of business at one time according to our capacity, if we’re not ready to receive the new business will appear on the page “Contact us” message that describes the color red.</p>
+
+            </div>
+
+
+            <div class="roles-main">
+                <div class="num">
+                    <svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 66"><defs><style>.cls-13{fill:#fbc52b;}.cls-23{fill:none;stroke:#8d76be;stroke-width:2px;}</style></defs><circle class="cls-13" cx="30" cy="36" r="30"/><path class="cls-23" d="M53.2,44.29a3.08,3.08,0,0,1,2.26.86,3,3,0,0,1,.87,2.2V50a2,2,0,0,1-2,2H24a2,2,0,0,1-2-2V48.94a4.63,4.63,0,0,1,.34-1.69,4.7,4.7,0,0,1,1.07-1.59L38.92,30.08q1.92-1.95,3.48-3.73A25.59,25.59,0,0,0,45,22.85a16.34,16.34,0,0,0,1.62-3.49,11.71,11.71,0,0,0,.56-3.7,8.72,8.72,0,0,0-.59-3.35A6.47,6.47,0,0,0,45,10,6.63,6.63,0,0,0,42.6,8.65a9.64,9.64,0,0,0-3.1-.48,9.34,9.34,0,0,0-3.08.49A8,8,0,0,0,34,10a7.74,7.74,0,0,0-1.79,2,8.06,8.06,0,0,0-1,2.59l0,.11a3.67,3.67,0,0,1-1.56,2.13,4.14,4.14,0,0,1-2.6.33l-4.11-.71.14-1a18.56,18.56,0,0,1,2-6.2,15.4,15.4,0,0,1,3.69-4.57A15.64,15.64,0,0,1,33.71,2,19.11,19.11,0,0,1,39.81,1a18.52,18.52,0,0,1,6.07,1,14.46,14.46,0,0,1,5,2.85A13.3,13.3,0,0,1,54.18,9.4a14.91,14.91,0,0,1,1.2,6.09,16.11,16.11,0,0,1-.87,5.36,20.61,20.61,0,0,1-2.3,4.63,36.12,36.12,0,0,1-3.29,4.21c-1.22,1.34-2.51,2.7-3.87,4.05l-8.62,8.81a1,1,0,0,0,0,1.41,1,1,0,0,0,.69.29Z" transform="translate(0 0)"/></svg>
+                </div>
+                <p>Accept a limited number of business at one time according to our capacity, if we’re not ready to receive the new business will appear on the page “Contact us” message that describes the color red.</p>
+
+            </div>
+
+            <div class="roles-main">
+                <div class="num">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60"><defs><style>.cls-11{fill:#fbc52b;}.cls-24{fill:none !important;;stroke:#8d76be;stroke-width:2px;}</style></defs><circle class="cls-11" cx="30" cy="30" r="30"/><path class="cls-24" d="M30.93,10.73a14.47,14.47,0,0,1,1-2.84A12.34,12.34,0,0,1,35,4.1a13.09,13.09,0,0,1,4.21-2.32A16,16,0,0,1,44.27,1a15.47,15.47,0,0,1,4.95.77,11.76,11.76,0,0,1,4,2.23,10.28,10.28,0,0,1,2.64,3.54,11,11,0,0,1,.95,4.58,11.63,11.63,0,0,1-.54,3.66,8.69,8.69,0,0,1-1.55,2.9,9.24,9.24,0,0,1-2.42,2.1.49.49,0,0,0-.16.67.55.55,0,0,0,.19.18A9.84,9.84,0,0,1,55.51,24a10.28,10.28,0,0,1,2.17,6.65A12.37,12.37,0,0,1,56.55,36a12,12,0,0,1-3.08,4A13.57,13.57,0,0,1,49,42.53a16.68,16.68,0,0,1-5.44.87,17.29,17.29,0,0,1-5.7-.84A11.87,11.87,0,0,1,31,36.65a22.74,22.74,0,0,1-1-2.36,3,3,0,0,1,1.64-3.87l.33-.13A3.62,3.62,0,0,1,34.09,30a2.6,2.6,0,0,1,1.85,1.47c.23.5.53,1.11.88,1.82a7.48,7.48,0,0,0,1.31,1.83,7,7,0,0,0,2.09,1.47,7.61,7.61,0,0,0,3.25.59,8.13,8.13,0,0,0,3.23-.59A7,7,0,0,0,49,35.09,6.42,6.42,0,0,0,50.32,33a6.1,6.1,0,0,0,.45-2.25,8.55,8.55,0,0,0-.37-2.62,3.85,3.85,0,0,0-1.24-1.83A7.11,7.11,0,0,0,46.44,25a12.66,12.66,0,0,0-3.64-.06,2,2,0,0,1-2.14-1.85.71.71,0,0,1,0-.15V20.86a2,2,0,0,1,1.84-2,17.2,17.2,0,0,0,3.19-.45,7.14,7.14,0,0,0,2.55-1.25,4.46,4.46,0,0,0,1.33-1.77A6.54,6.54,0,0,0,50,13a6.67,6.67,0,0,0-.46-2.59,4.74,4.74,0,0,0-1.22-1.74,5.28,5.28,0,0,0-1.86-1A8.15,8.15,0,0,0,44,7.22a7.39,7.39,0,0,0-2.44.39,6.26,6.26,0,0,0-2,1.06,6,6,0,0,0-1.42,1.6,6.52,6.52,0,0,0-.81,2.06l0,.14A3.25,3.25,0,0,1,36,14.26a3.37,3.37,0,0,1-2.23.31l-.45-.08A3,3,0,0,1,30.86,11C30.88,10.93,30.9,10.83,30.93,10.73Z" transform="translate(0 0)"/></svg>
+                </div>
+                <p>Accept a limited number of business at one time according to our capacity, if we’re not ready to receive the new business will appear on the page “Contact us” message that describes the color red.</p>
+
+            </div>
+
+
+            <div class="roles-main">
+                <div class="num">
+                    <svg  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 62.88 60"><defs><style>.cls-15{fill:#fbc52b;}.cls-25{fill:none;stroke:#8d76be;stroke-width:2px;}</style></defs><circle class="cls-15" cx="30" cy="30" r="30"/><path class="cls-25" d="M46.44,28.52V13L35,28.52Zm15.44,0v3.86a2.11,2.11,0,0,1-.51,1.41,2,2,0,0,1-1.58.65h-7V43a2,2,0,0,1-2,2H48.44a2,2,0,0,1-2-2V34.44H29.63A2.58,2.58,0,0,1,28,33.91a2.49,2.49,0,0,1-.87-1.36l0-.11V30.18a2.93,2.93,0,0,1,.59-1.78L45.16,4.9a5,5,0,0,1,4-2h1.64a2,2,0,0,1,2,2V28.52Z" transform="translate(0 0)"/></svg>
+                </div>
+                <p>Accept a limited number of business at one time according to our capacity, if we’re not ready to receive the new business will appear on the page “Contact us” message that describes the color red.</p>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <style>
+
+
+    </style>
+
+
+
+</div>

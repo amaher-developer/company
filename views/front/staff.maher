@@ -1,0 +1,403 @@
+<div class="container-fluid remove-padding">
+
+    <div class="slider-for-team">
+
+
+
+
+        {{#each records_chunk as |names|}}
+        <div class="team-item-mean">
+
+
+            {{#each names as |name|}}
+            <div class="team-child">
+                <img src="/staff/{{this.image}}">
+                <div class="team-info">
+                    <div class="data">
+                        <h3>{{ name.name }}</h3>
+                        <p>{{ name.title }}</p>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            {{/each}}
+
+        </div>
+
+        {{/each}}
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--<div class="team-item-mean">-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms2.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="team-child">-->
+                <!--<img src="/front/img/ms.jpeg">-->
+                <!--<div class="team-info">-->
+                    <!--<div class="data">-->
+                        <!--<h3>Mostafa Ahoir</h3>-->
+                        <!--<p>Android Developer</p>-->
+                    <!--</div>-->
+
+
+
+
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+<script>console.log(records_chunk);</script>
+
+<style>
+    .team-item-mean { height:calc(100vh - 120px);position: relative; overflow:hidden; margin-top:46px;}
+    .team-item-mean .team-child { height:50%; background:#ddd;transition: 0.5s;position: absolute; cursor:pointer; overflow:hidden }
+    .team-item-mean .team-child img { height:100%;    transition: 0.5s;
+        filter: grayscale(100%); cursor:pointer; width:100%; object-fit:cover}
+
+
+
+    .team-child:hover  img{
+        filter: grayscale(0%) !important ;  }
+
+
+
+    .team-item-mean .team-child:hover { height:60%; z-index:99;transition: 0.5s;}
+    .team-item-mean .team-child:first-child{ top:0;}
+    .team-item-mean .team-child:last-child{ bottom:0;}
+
+    .team-info {  width:100%; height:0%;background: rgba(143, 117, 190, 0.6); position:absolute; top:0; right:0; left:0;transition: 0.5s;     }
+
+    .team-item-mean .team-child:hover .team-info {  height:100%}
+    .team-item-mean .team-child:hover .data {  opacity:1;}
+
+    .team-info .data h3 {font-size: 29px;
+        color: white;
+        text-align: left;
+        line-height: 32px;
+        width: 100%;
+        padding-left: 15px;
+        margin-top: 35vh;}
+
+    .team-info .data p {    font-size: 12px;
+        font-weight: bold;
+        color: #ffc80a;
+        text-align: left;
+        letter-spacing: 0.24em;
+        margin-left: 20px;}
+
+    .team-info .data { position:absolute; bottom:15%; opacity:0;transition: 0.5s;}
+
+    .slick-next { right:50px !important;
+        z-index: 99999;
+        font-size: 0;
+        background: #ffc80a !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;}
+
+    .slick-next:before {
+        border-bottom: 3px solid #ffffff;
+        border-right: 3px solid #ffffff;
+        content: '';
+        display: block;
+        height: 10px;
+        margin-top: -2px;
+        position: absolute;
+        right: 16px;
+        top: 44%;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        width: 10px;
+        opacity: 1;
+    }
+
+    .slick-prev {
+        left: 50px !important;
+        z-index: 99999;
+        font-size: 0;
+        background: #ffc80a !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+
+    .slick-prev:before {
+        border-bottom: 3px solid #ffffff;
+        border-right: 3px solid #ffffff;
+        content: '';
+        display: block;
+        height: 10px;
+        margin-top: -2px;
+        position: absolute;
+        left: 16px;
+        top: 44%;
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        transform: rotate(135deg);
+        width: 10px;
+        opacity: 1;
+    }
+
+    .slick-prev, .slick-next {
+        top: 56%; }
+
+
+
+
+</style>

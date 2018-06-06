@@ -1,0 +1,240 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<div id="page-wrapper">
+
+    <div class="container-fluid">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    {{title}}
+                </h1>
+                <ol class="breadcrumb">
+                    <li>
+                        <i class="fa fa-dashboard"></i> <a href="/operate">Home</a>
+                    </li>
+                    <li class="active">
+                        <i class="fa fa-edit"></i> {{title}}
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-6">
+                {{# if success}}
+                <div class="alert alert-success">
+                    <strong>Success!</strong> Indicates a successful or positive action.
+                </div>
+                {{ else }}
+                {{# if errors}}
+                <div class="alert alert-danger">
+                    <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+                    <ul>
+                        {{# each errors}}
+                        <li>{{this.msg}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/if}}
+                {{/if}}
+                <form role="form" method="post" action=""  enctype="multipart/form-data">
+
+
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" class="form-control" placeholder="Enter Title" name="title" value="{{record.title}}">
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea  class="form-control" placeholder="Enter Description" name="description">{{record.description}}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Date</label>
+                        <input type="date" name="date" class="form-control" id="date"  value="">
+                    </div>
+                    <div class="form-group">
+                        <label>Background Color</label>
+                        <input type="color" name="colorcode" class="form-control"  value="#ff0000" value="{{record.colorcode}}" id="colorWell">
+                    </div>
+                    <div class="form-group">
+                        <label>Type</label>
+                        <select name="service_type" id="type" class="form-control" required>
+                            <option value="">Select type.</option>
+                            <option value="1" {{# if product}} selected="" {{/if}}>Product</option>
+                            <option value="2" {{# if brand}} selected="" {{/if}}>Brand</option>
+                        </select>
+                    </div>
+                    <div class="form-group" id="product_div">
+                        <!--<label>Type</label>-->
+                        <div class="row">
+                            <ul style="list-style-type: none;">
+                                <li class="col-lg-12">
+                                    <span class="col-lg-3"><input type="checkbox" name="web" value="1" id="web"  onclick="my_check('web');" {{# if record.web}} checked {{/if}}> Web</span>
+                                    <span class="col-lg-9"><input type="url" placeholder="Website URL" value="{{record.web_url}}" name="web_url" id="web_url" class="form-control"/></span>
+                                </li>
+                                <li class="col-lg-12">
+                                    <span class="col-lg-3"><input type="checkbox" name="ios"  value="1"  id="ios" onclick="my_check('ios');" {{# if record.ios}} checked {{/if}}> IOS</span>
+                                    <span class="col-lg-9"><input type="url" placeholder="App URL" value="{{record.ios_url}}" name="ios_url" id="ios_url" class="form-control"/></span>
+                                </li>
+                                <li class="col-lg-12">
+                                    <span class="col-lg-3"><input type="checkbox" name="android" value="1"  id="android" onclick="my_check('android');" {{# if record.android}} checked {{/if}}> Android</span>
+                                    <span class="col-lg-9"><input type="url" placeholder="App URL" value="{{record.android_url}}" name="android_url" id="android_url" class="form-control"/></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Image</label>
+                        <input type="file" class="form-control" name="image" id="image" >
+                        <img id="preview" style="width: 250px;height: 250px;object-fit: cover;"  src="/service/{{record.image}}" />
+
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <div><hr/></div>
+                        <label>Testmonial:</label>
+                    </div>
+
+                    <div class="form-group">
+                        <label>user name:</label>
+                        <input type="text" name="user_name" class="form-control"  value="{{record.user_name}}">
+                    </div>
+                    <div class="form-group">
+                        <label>user comment:</label>
+                        <textarea name="user_comment" class="form-control" >{{record.user_comment}}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>user image:</label>
+                        <input type="file" class="form-control" name="user_image" id="user_image" >
+                        <img id="user_preview" style="width: 150px;height: 150px;object-fit: cover;"  src="/service/{{record.user_image}}" />
+                    </div>
+
+
+
+                    <input type="hidden" name="_csrf" value="{{csrfToken}}">
+
+                    <button type="submit" class="btn btn-default">Submit Button</button>
+                    <!--<button type="reset" class="btn btn-default">Reset Button</button>-->
+
+                </form>
+
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container-fluid -->
+
+</div>
+<!-- /#page-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+<script>
+    function readURL(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#preview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    function readURL2(input) {
+
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function(e) {
+                $('#user_preview').attr('src', e.target.result);
+            }
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    $("#image").change(function() {
+        readURL(this);
+    });
+
+    $("#user_image").change(function() {
+        readURL2(this);
+    });
+
+
+    var colorWell;
+    var defaultColor = "#0000ff";
+
+    window.addEventListener("load", startup, false);
+    function startup() {
+        colorWell = document.querySelector("#colorWell");
+        colorWell.value = defaultColor;
+        colorWell.addEventListener("input", updateFirst, false);
+        colorWell.addEventListener("change", updateAll, false);
+        colorWell.select();
+    }
+    function updateFirst(event) {
+        var p = document.querySelector("p");
+
+        if (p) {
+            p.style.color = event.target.value;
+        }
+    }function updateAll(event) {
+        document.querySelectorAll("p").forEach(function(p) {
+            p.style.color = event.target.value;
+        });
+    }
+
+</script>
+
+<script>
+    $('#type').on('change', function() {
+        if( this.value == 2 ){
+            $('#product_div').hide();
+        }else
+            $('#product_div').show();
+    });
+
+    $('#web_url').hide();
+    $('#ios_url').hide();
+    $('#android_url').hide();
+    function my_check(id) {
+        // Get the checkbox
+        var checkBox = document.getElementById(id);
+        // Get the output text
+        var div = document.getElementById(id+'_url');
+
+        // If the checkbox is checked, display the output text
+        if (checkBox.checked == true){
+            $('#'+id+'_url').show();
+        } else {
+            $('#'+id+'_url').hide();
+        }
+    }
+
+
+    function formatDate(date) {
+        var d = new Date(date),
+            month = '' + (d.getMonth() + 1),
+            day = '' + d.getDate(),
+            year = d.getFullYear();
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        return [year, month, day].join('-');
+    }
+
+    document.getElementById('date').value =  formatDate('{{record.date}}') ;
+
+
+</script>
